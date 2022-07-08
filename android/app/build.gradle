@@ -58,6 +58,7 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    namespace 'jp.osaka.hida.google_drive_test'
 }
 
 flutter {
