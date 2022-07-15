@@ -128,7 +128,6 @@ class _SampleScreen0State extends State<SamplesScreen0> {
     _googleSignIn0 = signIn0.GoogleSignIn(
       scopes: [
         drive0.DriveApi.driveAppdataScope,
-        'https://www.googleapis.com/auth/drive.file',
       ],
     );
     try {
